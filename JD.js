@@ -140,7 +140,7 @@ async function all(cookie, jrBody) {
         // JingDongCash(stop), //京东现金红包
         // JDMagicCube(stop, 2), //京东小魔方
         // JingDongSubsidy(stop), //京东金贴
-        // JingDongGetCash(stop), //京东领现金
+        JingDongGetCash(stop), //京东领现金
         // JingDongShake(stop), //京东摇一摇
         // JDSecKilling(stop), //京东秒杀
         // JingRongDoll(stop, 'JRDoll', '京东金融-签壹', '4D25A6F482'),
@@ -184,13 +184,13 @@ async function all(cookie, jrBody) {
       break;
     default:
       await JingDongBean(0); //京东京豆
-      // await JingDongStore(Wait(stop)); //京东超市
+      await JingDongStore(Wait(stop)); //京东超市
       // await JingRongSteel(Wait(stop), jrBody); //金融钢镚
       // await JingDongTurn(Wait(stop)); //京东转盘
       // await JDFlashSale(Wait(stop)); //京东闪购
-      // await JingDongCash(Wait(stop)); //京东现金红包
+//       await JingDongCash(Wait(stop)); //京东现金红包
       // await JDMagicCube(Wait(stop), 2); //京东小魔方
-      // await JingDongGetCash(Wait(stop)); //京东领现金
+      await JingDongGetCash(Wait(stop)); //京东领现金
       // await JingDongSubsidy(Wait(stop)); //京东金贴
       // await JingDongShake(Wait(stop)); //京东摇一摇
       // await JDSecKilling(Wait(stop)); //京东秒杀
